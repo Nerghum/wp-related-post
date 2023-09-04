@@ -11,11 +11,11 @@
  *
  * Returns: None
  *
- * Author: [Your Name]
+ * Author: nerghum
  *
  * Version: 1.0
  *
- * License: [Specify the license if applicable]
+ * License: GNU General Public License
  *
  * Example:
  * <?php display_related_posts(); ?>
