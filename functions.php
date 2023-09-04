@@ -1,3 +1,26 @@
+/**
+ * Function Name: display_related_posts
+ *
+ * Description: Displays related posts within a single post based on the first category.
+ *
+ * Parameters: None
+ *
+ * Usage:
+ * Place <?php display_related_posts(); ?> inside your single post template file (single.php)
+ * where you want to display related posts.
+ *
+ * Returns: None
+ *
+ * Author: [Your Name]
+ *
+ * Version: 1.0
+ *
+ * License: [Specify the license if applicable]
+ *
+ * Example:
+ * <?php display_related_posts(); ?>
+ */
+
 function display_related_posts() {
     global $post;
     
@@ -30,5 +53,3 @@ function display_related_posts() {
         wp_reset_postdata();
     }
 }
-
-// use <?php display_related_posts(); ?> to show in single.php
